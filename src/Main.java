@@ -1,0 +1,55 @@
+public class Main {
+    public static void main(String[] args) {
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+        var weightFighter1 = 78.2;
+        var weightFighter2 = 82.7;
+        var weightFighters = weightFighter1 + weightFighter2;
+        System.out.println(weightFighters);
+        var weightFightersDifference =  weightFighter2 - weightFighter1;
+        System.out.println(weightFightersDifference);
+        var weightSportsman1 = 65.4;
+        var weightSportsman2 = 71.2;
+        var weightSportsmansDifference1 = weightSportsman2 - weightSportsman1;
+        System.out.println(weightSportsmansDifference1);
+        var weightSportsmansDifference2 = weightSportsman2 % weightSportsman1;
+        System.out.println(weightSportsmansDifference2);
+        var time = 640;
+        var timeForAnEmployee = 8;
+        var numberOfEmployees = time / timeForAnEmployee;
+        System.out.println("Всего работников в компании - " + numberOfEmployees + " человек");
+        var newNumberOfEmployees = numberOfEmployees + 94;
+        time = timeForAnEmployee * newNumberOfEmployees;
+        System.out.println("Если в компании работает " + newNumberOfEmployees + " человек, то всего " + time + " часов работы может быть поделено между сотрудниками");
+    }
+}
