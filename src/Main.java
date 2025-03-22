@@ -40,10 +40,10 @@ public class Main {
         System.out.println(weightFightersDifference);
         var weightSportsman1 = 65.4;
         var weightSportsman2 = 71.2;
-        var weightSportsmansDifference1 = weightSportsman2 - weightSportsman1;
-        System.out.println(weightSportsmansDifference1);
-        var weightSportsmansDifference2 = weightSportsman2 % weightSportsman1;
-        System.out.println(weightSportsmansDifference2);
+        var weightOfSportsmansDifference1 = weightSportsman2 - weightSportsman1;
+        System.out.println(weightOfSportsmansDifference1);
+        var weightOfSportsmansDifference2 = weightSportsman2 % weightSportsman1;
+        System.out.println(weightOfSportsmansDifference2);
         var time = 640;
         var timeForAnEmployee = 8;
         var numberOfEmployees = time / timeForAnEmployee;
