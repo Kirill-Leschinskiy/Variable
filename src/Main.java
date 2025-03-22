@@ -36,8 +36,8 @@ public class Main {
         var weightFighter2 = 82.7;
         var weightFighters = weightFighter1 + weightFighter2;
         System.out.println(weightFighters);
-        var weightFightersDifference =  weightFighter2 - weightFighter1;
-        System.out.println(weightFightersDifference);
+        var weightOfFightersDifference =  weightFighter2 - weightFighter1;
+        System.out.println(weightOfFightersDifference);
         var weightSportsman1 = 65.4;
         var weightSportsman2 = 71.2;
         var weightOfSportsmansDifference1 = weightSportsman2 - weightSportsman1;
